@@ -1,0 +1,35 @@
+.navigation {
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navigation .nav_container {
+    display: flex;
+}
+
+.navigation .nav_logo {
+    width: 20%;
+}
+
+.navigation .nav_menu {
+    width: 60%;
+}
+
+.navigation .nav_menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation .nav_menu ul {
+
+}
+
+.navigation .nav_search {
+    width: 20%;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
