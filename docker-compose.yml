@@ -3,6 +3,7 @@ services:
 
     #PHP Service
     app:
+        platform: linux/amd64
         build:
             context: .
             dockerfile: Dockerfile
@@ -22,6 +23,7 @@ services:
 
     #Nginx Service
     webserver:
+        platform: linux/amd64
         image: nginx:alpine
         container_name: webserver
         restart: unless-stopped
@@ -38,6 +40,7 @@ services:
     #MySQL Service
     db:
         image: mysql:5.7.22
+        platform: linux/amd64
         container_name: db
         restart: unless-stopped
         tty: true
@@ -57,6 +60,7 @@ services:
     #PhpMyadmin Service
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
+        platform: linux/amd64
         restart: unless-stopped
         container_name: phpmyadmin
         depends_on:
