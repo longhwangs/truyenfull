@@ -1,35 +1,82 @@
-.navigation {
+.wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.container-content {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.nav-wrap {
+    background-color: antiquewhite;
+}
+
+p, ul {
+    margin-bottom: 0;
+}
+
+.nav-content {
     height: 50px;
-    width: 70%;
-    margin: 0 auto;
+    align-items: center;
 }
 
-.navigation .nav_container {
+.nav-content .nav-content__menu ul {
     display: flex;
 }
 
-.navigation .nav_logo {
-    width: 20%;
+.nav-content .nav-content__menu ul li {
+    list-style-type: none;
+    padding: 5px;
 }
 
-.navigation .nav_menu {
-    width: 60%;
+.nav-content .nav-content__menu ul li a {
+    color: #000;
 }
 
-.navigation .nav_menu ul {
-    display: flex;
-    justify-content: space-around;
+.description-wrap {
+    background-color: dimgray;
 }
 
-.navigation .nav_menu ul {
-
+.description-content {
+    padding: 5px 0px;
+    height: auto;
+    margin-bottom: 0px;
 }
 
-.navigation .nav_search {
-    width: 20%;
+/* Hot Comic */
+.comic-hot-content {
+    margin: 0px;
+    height: auto;
+    background-color: gray;
 }
 
-.content {
-    width: 70%;
-    margin: 0 auto;
+.comic-hot-content .list-top .row:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.comic-hot-content .list-top .col-sm-2 {
+    height: 165px;
+}
+
+.comic-hot-content .list-top .col-sm-2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.comic-complete .row {
+    margin-bottom: 5px;
+}
+
+.comic-complete .item img {
+    width: 95%;
+    height: 165px;
+}
+
+.footer {
+    height: 100px;
 }
