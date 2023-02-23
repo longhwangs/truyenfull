@@ -2,10 +2,20 @@
 
 namespace App\Http\Controllers;
 
-class HomeController extends  Controller
+use App\Repositories\UserRepository;
+
+class HomeController extends Controller
 {
-    public function  index()
+    protected $repository;
+
+    public function __construct(UserRepository $repository)
     {
+        $this->repository = $repository;
+    }
+
+    public function index()
+    {
+        // dd($this->repository->all()->toArray());
         return view('layouts.master');
     }
 }

@@ -27,6 +27,10 @@
         rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <style>
         body {
@@ -43,8 +47,8 @@
         @section('content')
             <div class="container-fluid bg-body comic-hot-wrap">
                 <div class="container-content">
-                    <div class="row">
-                        <div class="col-sm-6">
+                    <div class="row content-header">
+                        <div class="col-sm-6 ">
                             <p>TRUYEN HOT</p>
                         </div>
                         <div class="col-sm-6">
@@ -52,49 +56,49 @@
                         </div>
                     </div>
                     <div class="row comic-hot-content">
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 item-hot">
                             <a href="">
                                 <img src="https://cdn.truyenfull.com/medias/covers/0/1-mat-ma-tay-tang_cover_large.jpg" alt="">
                             </a>
                         </div>
                         <div class="col-sm-9 list-top">
                             <div class="row">
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-sm-2 item-hot">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/13/13140-legendary-moonlight-sculptor-con-duong-de-vuong_cover_large.jpg" alt=""></a>
                                 </div>
                             </div>
@@ -106,7 +110,7 @@
                 <div class="container-content">
                     <div class="row">
                         <div class="col-sm-9">
-                            <div class="row">
+                            <div class="row content-header pb-0">
                                 <div class="col-sm-6">
                                     <p>TRUYEN MOI CAP NHAT</p>
                                 </div>
@@ -114,44 +118,63 @@
                                     <p>TAT CA</p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-5">Re Ho Hao Mon</div>
+                            <div class="row item">
+                                <div class="col-sm-5">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Re Ho Hao Mon
+                                </div>
                                 <div class="col-sm-3">Ngon tinh</div>
                                 <div class="col-sm-2">Chuong 12</div>
                                 <div class="col-sm-2">1 gio truoc</div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-5">Re Ho Hao Mon</div>
+                            <div class="row item">
+                                <div class="col-sm-5">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Re Ho Hao Mon
+                                </div>
                                 <div class="col-sm-3">Ngon tinh</div>
                                 <div class="col-sm-2">Chuong 12</div>
                                 <div class="col-sm-2">1 gio truoc</div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-5">Re Ho Hao Mon</div>
+                            <div class="row item">
+                                <div class="col-sm-5">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Re Ho Hao Mon
+                                </div>
                                 <div class="col-sm-3">Ngon tinh</div>
                                 <div class="col-sm-2">Chuong 12</div>
                                 <div class="col-sm-2">1 gio truoc</div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-5">Re Ho Hao Mon</div>
+                            <div class="row item">
+                                <div class="col-sm-5">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Re Ho Hao Mon
+                                </div>
                                 <div class="col-sm-3">Ngon tinh</div>
                                 <div class="col-sm-2">Chuong 12</div>
                                 <div class="col-sm-2">1 gio truoc</div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-5">Re Ho Hao Mon</div>
+                            <div class="row item">
+                                <div class="col-sm-5">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    Re Ho Hao Mon
+                                </div>
                                 <div class="col-sm-3">Ngon tinh</div>
                                 <div class="col-sm-2">Chuong 12</div>
                                 <div class="col-sm-2">1 gio truoc</div>
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="row">
+                            <div class="row content-header">
                                 <p>THE LOAI TRUYEN</p>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">Tien Hiep</div>
                                 <div class="col-sm-6">Kiem Hiep</div>
+                            </div>
+                            <div class="row content-header">
+                                <div class="col-sm-12">Tags</div>
+                                <div class="col-sm-12">dam my</div>
                             </div>
                         </div>
                     </div>
@@ -159,7 +182,7 @@
             </div>
             <div class="container-fluid bg-body comic-complete">
                 <div class="container-content">
-                    <div class="row">
+                    <div class="row content-header">
                         <p>TRUYEN DA HOAN THANH</p>
                     </div>
                     <div class="row">
@@ -167,51 +190,19 @@
                             <div class="row">
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
-                                </div>
-                                <div class="col-sm-3 item">
-                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                             </div>
                         </div>
@@ -219,15 +210,19 @@
                             <div class="row">
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                             </div>
                         </div>
@@ -239,15 +234,19 @@
                             <div class="row">
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                             </div>
                         </div>
@@ -255,15 +254,63 @@
                             <div class="row">
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                                 <div class="col-sm-3 item">
                                     <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
+                                </div>
+                                <div class="col-sm-3 item">
+                                    <a href=""><img src="https://cdn.truyenfull.com/medias/covers/32/32727-a-ly_cover_large.jpg" alt=""></a>
+                                    <p>Cô Vợ Bé Nhỏ Của Tổng Giám Đốc</p>
                                 </div>
                             </div>
                         </div>
@@ -285,9 +332,6 @@
             </div>
         @show
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 <!-- MDB -->
 <script

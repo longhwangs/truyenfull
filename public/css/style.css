@@ -13,7 +13,7 @@
 }
 
 .nav-wrap {
-    background-color: antiquewhite;
+    background-color: #242F39;
 }
 
 p, ul {
@@ -23,6 +23,15 @@ p, ul {
 .nav-content {
     height: 50px;
     align-items: center;
+}
+
+.nav-content__logo {
+    color: #fff;
+}
+
+.bg-body {
+    background-color: #222222 !important;
+    color: #b1b1b1;
 }
 
 .nav-content .nav-content__menu ul {
@@ -35,11 +44,20 @@ p, ul {
 }
 
 .nav-content .nav-content__menu ul li a {
-    color: #000;
+    color: #fff;
 }
 
 .description-wrap {
-    background-color: dimgray;
+    background-color: #2e3740;
+    color: #b1b1b1;
+}
+
+.nav-item.dropdown.show {
+    background-color: #14425D;
+}
+
+.dropdown-menu {
+    background-color: #14425D;
 }
 
 .description-content {
@@ -55,6 +73,11 @@ p, ul {
     background-color: gray;
 }
 
+.comic-hot-content .item-hot:hover {
+    transform: scale(1.05);
+    transform: all .1s ease-in-out;
+}
+
 .comic-hot-content .list-top .row:nth-child(1) {
     margin-bottom: 5px;
 }
@@ -68,8 +91,18 @@ p, ul {
     width: 100%;
 }
 
+/* Complete */
+
 .comic-complete .row {
     margin-bottom: 5px;
+}
+
+.comic-complete .row:last-child {
+    margin-bottom: 0px;
+}
+
+.comic-complete .item {
+    text-align: center;
 }
 
 .comic-complete .item img {
@@ -77,6 +110,24 @@ p, ul {
     height: 165px;
 }
 
+.content-header {
+    padding: 15px 0px;
+}
+
+/* New udate */
+.new-update .item {
+    padding: 15px 0px;
+}
+
+.new-update .item:nth-child(2n+1) {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.pb-0 {
+    padding-bottom: 0px;
+}
+
+/* Footer */
 .footer {
-    height: 100px;
+    height: auto;
 }
